@@ -3,211 +3,323 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		278F75912E37C79B00A8724A /* ZenbitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278F75902E37C79B00A8724A /* ZenbitApp.swift */; };
+		278F768E2E3BB0C200A8724A /* MeditationTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278F768D2E3BB0C200A8724A /* MeditationTimerView.swift */; };
+		278F76902E3BB0EE00A8724A /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278F768F2E3BB0EE00A8724A /* TimerViewModel.swift */; };
+		278F76A02E3BB32600A8724A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278F769E2E3BB32600A8724A /* OnboardingView.swift */; };
+		278F76A12E3BB32600A8724A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278F769F2E3BB32600A8724A /* WelcomeView.swift */; };
+		278F76A22E3BB32600A8724A /* FirstTimeSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278F769D2E3BB32600A8724A /* FirstTimeSetupView.swift */; };
+		278F76AA2E3BB4CC00A8724A /* ZenbitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278F76A92E3BB4CC00A8724A /* ZenbitView.swift */; };
+		278F76AB2E3BB4CC00A8724A /* CompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278F76A82E3BB4CC00A8724A /* CompletionView.swift */; };
+		A1B2C3D42E37C55000A8724A /* ZenbitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D52E37C55000A8724A /* ZenbitApp.swift */; };
+		A1B2C3D62E37C55000A8724A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D72E37C55000A8724A /* ContentView.swift */; };
+		A1B2C3D82E37C55000A8724A /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D92E37C55000A8724A /* UserSettings.swift */; };
+		A1B2C3DA2E37C55000A8724A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3DB2E37C55000A8724A /* HomeView.swift */; };
+		A1B2C3DC2E37C55000A8724A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3DD2E37C55000A8724A /* SettingsView.swift */; };
+		A1B2C3DE2E37C55000A8724A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3DF2E37C55000A8724A /* Assets.xcassets */; };
+		A1B2C3E02E37C55100A8724A /* UserSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3E12E37C55100A8724A /* UserSettingsTests.swift */; };
+		A1B2C3FE2E37C55000A8724A /* MeditationSessionPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3FF2E37C55000A8724A /* MeditationSessionPreviewView.swift */; };
+		A1B2C4002E37C55000A8724A /* MeditationSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C4012E37C55000A8724A /* MeditationSessionViewModel.swift */; };
+		A1B2C4022E37C55000A8724A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C4032E37C55000A8724A /* CoreDataManager.swift */; };
+		A1B2C4042E37C55000A8724A /* Zenbit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C4052E37C55000A8724A /* Zenbit.xcdatamodeld */; };
+		A1B2C4062E37C55100A8724A /* MeditationSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C4072E37C55100A8724A /* MeditationSessionViewModelTests.swift */; };
+		A1B2C4082E37C55100A8724A /* SimpleCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C4092E37C55100A8724A /* SimpleCoreDataTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		278F754F2E37C55100A8724A /* PBXContainerItemProxy */ = {
+		A1B2C3E22E37C55100A8724A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 278F75342E37C55000A8724A /* Project object */;
+			containerPortal = A1B2C3E32E37C55000A8724A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 278F753B2E37C55000A8724A;
+			remoteGlobalIDString = A1B2C3E42E37C55000A8724A;
 			remoteInfo = Zenbit;
 		};
-
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		278F753C2E37C55000A8724A /* Zenbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zenbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		278F754E2E37C55100A8724A /* ZenbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-
-		278F75902E37C79B00A8724A /* ZenbitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenbitApp.swift; sourceTree = "<group>"; };
+		278F768D2E3BB0C200A8724A /* MeditationTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationTimerView.swift; sourceTree = "<group>"; };
+		278F768F2E3BB0EE00A8724A /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		278F769D2E3BB32600A8724A /* FirstTimeSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTimeSetupView.swift; sourceTree = "<group>"; };
+		278F769E2E3BB32600A8724A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		278F769F2E3BB32600A8724A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		278F76A82E3BB4CC00A8724A /* CompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionView.swift; sourceTree = "<group>"; };
+		278F76A92E3BB4CC00A8724A /* ZenbitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenbitView.swift; sourceTree = "<group>"; };
+		A1B2C3D52E37C55000A8724A /* ZenbitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenbitApp.swift; sourceTree = "<group>"; };
+		A1B2C3D72E37C55000A8724A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D92E37C55000A8724A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		A1B2C3DB2E37C55000A8724A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A1B2C3DD2E37C55000A8724A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A1B2C3DF2E37C55000A8724A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B2C3E12E37C55100A8724A /* UserSettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsTests.swift; sourceTree = "<group>"; };
+		A1B2C3E52E37C55000A8724A /* Zenbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zenbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3E62E37C55100A8724A /* ZenbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3FF2E37C55000A8724A /* MeditationSessionPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationSessionPreviewView.swift; sourceTree = "<group>"; };
+		A1B2C4012E37C55000A8724A /* MeditationSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationSessionViewModel.swift; sourceTree = "<group>"; };
+		A1B2C4032E37C55000A8724A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A1B2C4052E37C55000A8724A /* Zenbit.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zenbit.xcdatamodeld; sourceTree = "<group>"; };
+		A1B2C4072E37C55100A8724A /* MeditationSessionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationSessionViewModelTests.swift; sourceTree = "<group>"; };
+		A1B2C4092E37C55100A8724A /* SimpleCoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCoreDataTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		278F75512E37C55100A8724A /* ZenbitTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ZenbitTests;
-			sourceTree = "<group>";
-		};
-
+		278F76A62E3BB36500A8724A /* Health */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Health; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		278F75392E37C55000A8724A /* Frameworks */ = {
+		A1B2C3E72E37C55000A8724A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		278F754B2E37C55100A8724A /* Frameworks */ = {
+		A1B2C3E82E37C55100A8724A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		278F75332E37C55000A8724A = {
+		A1B2C3E92E37C55000A8724A = {
 			isa = PBXGroup;
 			children = (
-				278F75902E37C79B00A8724A /* ZenbitApp.swift */,
-				278F75512E37C55100A8724A /* ZenbitTests */,
-				278F753D2E37C55000A8724A /* Products */,
+				A1B2C3EA2E37C55000A8724A /* Zenbit */,
+				A1B2C3EB2E37C55100A8724A /* ZenbitTests */,
+				A1B2C3EC2E37C55000A8724A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		278F753D2E37C55000A8724A /* Products */ = {
+		A1B2C3EA2E37C55000A8724A /* Zenbit */ = {
 			isa = PBXGroup;
 			children = (
-				278F753C2E37C55000A8724A /* Zenbit.app */,
-				278F754E2E37C55100A8724A /* ZenbitTests.xctest */,
+				278F76A62E3BB36500A8724A /* Health */,
+				A1B2C3ED2E37C55000A8724A /* Models */,
+				A1B2C3EE2E37C55000A8724A /* Views */,
+				A1B2C40A2E37C55000A8724A /* ViewModels */,
+				A1B2C40B2E37C55000A8724A /* Persistence */,
+				A1B2C3D52E37C55000A8724A /* ZenbitApp.swift */,
+				A1B2C3D72E37C55000A8724A /* ContentView.swift */,
+				A1B2C3DF2E37C55000A8724A /* Assets.xcassets */,
+			);
+			path = Zenbit;
+			sourceTree = "<group>";
+		};
+		A1B2C3EB2E37C55100A8724A /* ZenbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3E12E37C55100A8724A /* UserSettingsTests.swift */,
+				A1B2C4072E37C55100A8724A /* MeditationSessionViewModelTests.swift */,
+				A1B2C4092E37C55100A8724A /* SimpleCoreDataTests.swift */,
+			);
+			path = ZenbitTests;
+			sourceTree = "<group>";
+		};
+		A1B2C3EC2E37C55000A8724A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3E52E37C55000A8724A /* Zenbit.app */,
+				A1B2C3E62E37C55100A8724A /* ZenbitTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A1B2C3ED2E37C55000A8724A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D92E37C55000A8724A /* UserSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1B2C3EE2E37C55000A8724A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				278F76A82E3BB4CC00A8724A /* CompletionView.swift */,
+				278F76A92E3BB4CC00A8724A /* ZenbitView.swift */,
+				278F769D2E3BB32600A8724A /* FirstTimeSetupView.swift */,
+				278F769E2E3BB32600A8724A /* OnboardingView.swift */,
+				278F769F2E3BB32600A8724A /* WelcomeView.swift */,
+				A1B2C3DB2E37C55000A8724A /* HomeView.swift */,
+				A1B2C3DD2E37C55000A8724A /* SettingsView.swift */,
+				A1B2C3FF2E37C55000A8724A /* MeditationSessionPreviewView.swift */,
+				278F768D2E3BB0C200A8724A /* MeditationTimerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1B2C40A2E37C55000A8724A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				278F768F2E3BB0EE00A8724A /* TimerViewModel.swift */,
+				A1B2C4012E37C55000A8724A /* MeditationSessionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A1B2C40B2E37C55000A8724A /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C4032E37C55000A8724A /* CoreDataManager.swift */,
+				A1B2C4052E37C55000A8724A /* Zenbit.xcdatamodeld */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		278F753B2E37C55000A8724A /* Zenbit */ = {
+		A1B2C3E42E37C55000A8724A /* Zenbit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 278F75622E37C55100A8724A /* Build configuration list for PBXNativeTarget "Zenbit" */;
+			buildConfigurationList = A1B2C3EF2E37C55100A8724A /* Build configuration list for PBXNativeTarget "Zenbit" */;
 			buildPhases = (
-				278F75382E37C55000A8724A /* Sources */,
-				278F75392E37C55000A8724A /* Frameworks */,
-				278F753A2E37C55000A8724A /* Resources */,
+				A1B2C3F02E37C55000A8724A /* Sources */,
+				A1B2C3E72E37C55000A8724A /* Frameworks */,
+				A1B2C3F12E37C55000A8724A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				278F76A62E3BB36500A8724A /* Health */,
 			);
 			name = Zenbit;
 			packageProductDependencies = (
 			);
 			productName = Zenbit;
-			productReference = 278F753C2E37C55000A8724A /* Zenbit.app */;
+			productReference = A1B2C3E52E37C55000A8724A /* Zenbit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		278F754D2E37C55100A8724A /* ZenbitTests */ = {
+		A1B2C3F22E37C55100A8724A /* ZenbitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 278F75652E37C55100A8724A /* Build configuration list for PBXNativeTarget "ZenbitTests" */;
+			buildConfigurationList = A1B2C3F32E37C55100A8724A /* Build configuration list for PBXNativeTarget "ZenbitTests" */;
 			buildPhases = (
-				278F754A2E37C55100A8724A /* Sources */,
-				278F754B2E37C55100A8724A /* Frameworks */,
-				278F754C2E37C55100A8724A /* Resources */,
+				A1B2C3F42E37C55100A8724A /* Sources */,
+				A1B2C3E82E37C55100A8724A /* Frameworks */,
+				A1B2C3F52E37C55100A8724A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				278F75502E37C55100A8724A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				278F75512E37C55100A8724A /* ZenbitTests */,
+				A1B2C3F62E37C55100A8724A /* PBXTargetDependency */,
 			);
 			name = ZenbitTests;
 			packageProductDependencies = (
 			);
 			productName = ZenbitTests;
-			productReference = 278F754E2E37C55100A8724A /* ZenbitTests.xctest */;
+			productReference = A1B2C3E62E37C55100A8724A /* ZenbitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		278F75342E37C55000A8724A /* Project object */ = {
+		A1B2C3E32E37C55000A8724A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					278F753B2E37C55000A8724A = {
-						CreatedOnToolsVersion = 16.4;
-						LastSwiftMigration = 1640;
+					A1B2C3E42E37C55000A8724A = {
+						CreatedOnToolsVersion = 15.0;
 					};
-					278F754D2E37C55100A8724A = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 278F753B2E37C55000A8724A;
+					A1B2C3F22E37C55100A8724A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A1B2C3E42E37C55000A8724A;
 					};
 				};
 			};
-			buildConfigurationList = 278F75372E37C55000A8724A /* Build configuration list for PBXProject "Zenbit" */;
+			buildConfigurationList = A1B2C3F72E37C55000A8724A /* Build configuration list for PBXProject "Zenbit" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 278F75332E37C55000A8724A;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 278F753D2E37C55000A8724A /* Products */;
+			mainGroup = A1B2C3E92E37C55000A8724A;
+			packageReferences = (
+			);
+			productRefGroup = A1B2C3EC2E37C55000A8724A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				278F753B2E37C55000A8724A /* Zenbit */,
-				278F754D2E37C55100A8724A /* ZenbitTests */,
+				A1B2C3E42E37C55000A8724A /* Zenbit */,
+				A1B2C3F22E37C55100A8724A /* ZenbitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		278F753A2E37C55000A8724A /* Resources */ = {
+		A1B2C3F12E37C55000A8724A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3DE2E37C55000A8724A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3F52E37C55100A8724A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		278F754C2E37C55100A8724A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		278F75382E37C55000A8724A /* Sources */ = {
+		A1B2C3F02E37C55000A8724A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				278F75912E37C79B00A8724A /* ZenbitApp.swift in Sources */,
+				A1B2C3D62E37C55000A8724A /* ContentView.swift in Sources */,
+				A1B2C3D82E37C55000A8724A /* UserSettings.swift in Sources */,
+				278F76A02E3BB32600A8724A /* OnboardingView.swift in Sources */,
+				278F76A12E3BB32600A8724A /* WelcomeView.swift in Sources */,
+				278F76A22E3BB32600A8724A /* FirstTimeSetupView.swift in Sources */,
+				A1B2C3DA2E37C55000A8724A /* HomeView.swift in Sources */,
+				278F76AA2E3BB4CC00A8724A /* ZenbitView.swift in Sources */,
+				278F76AB2E3BB4CC00A8724A /* CompletionView.swift in Sources */,
+				A1B2C3DC2E37C55000A8724A /* SettingsView.swift in Sources */,
+				A1B2C3FE2E37C55000A8724A /* MeditationSessionPreviewView.swift in Sources */,
+				A1B2C4002E37C55000A8724A /* MeditationSessionViewModel.swift in Sources */,
+				278F768E2E3BB0C200A8724A /* MeditationTimerView.swift in Sources */,
+				A1B2C4022E37C55000A8724A /* CoreDataManager.swift in Sources */,
+				278F76902E3BB0EE00A8724A /* TimerViewModel.swift in Sources */,
+				A1B2C4042E37C55000A8724A /* Zenbit.xcdatamodeld in Sources */,
+				A1B2C3D42E37C55000A8724A /* ZenbitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		278F754A2E37C55100A8724A /* Sources */ = {
+		A1B2C3F42E37C55100A8724A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B2C3E02E37C55100A8724A /* UserSettingsTests.swift in Sources */,
+				A1B2C4062E37C55100A8724A /* MeditationSessionViewModelTests.swift in Sources */,
+				A1B2C4082E37C55100A8724A /* SimpleCoreDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		278F75502E37C55100A8724A /* PBXTargetDependency */ = {
+		A1B2C3F62E37C55100A8724A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 278F753B2E37C55000A8724A /* Zenbit */;
-			targetProxy = 278F754F2E37C55100A8724A /* PBXContainerItemProxy */;
+			target = A1B2C3E42E37C55000A8724A /* Zenbit */;
+			targetProxy = A1B2C3E22E37C55100A8724A /* PBXContainerItemProxy */;
 		};
-
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		278F75602E37C55100A8724A /* Debug */ = {
+		A1B2C3F82E37C55100A8724A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -270,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		278F75612E37C55100A8724A /* Release */ = {
+		A1B2C3F92E37C55100A8724A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -326,14 +438,14 @@
 			};
 			name = Release;
 		};
-		278F75632E37C55100A8724A /* Debug */ = {
+		A1B2C3FA2E37C55100A8724A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -346,23 +458,22 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nanolabs.Zenbit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenbit.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		278F75642E37C55100A8724A /* Release */ = {
+		A1B2C3FB2E37C55100A8724A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -375,7 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nanolabs.Zenbit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenbit.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -383,75 +494,97 @@
 			};
 			name = Release;
 		};
-		278F75662E37C55100A8724A /* Debug */ = {
+		A1B2C3FC2E37C55100A8724A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nanolabs.ZenbitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenbit.appTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zenbit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zenbit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zenbit.app/Zenbit";
 			};
 			name = Debug;
 		};
-		278F75672E37C55100A8724A /* Release */ = {
+		A1B2C3FD2E37C55100A8724A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nanolabs.ZenbitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenbit.appTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zenbit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zenbit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zenbit.app/Zenbit";
 			};
 			name = Release;
 		};
-
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		278F75372E37C55000A8724A /* Build configuration list for PBXProject "Zenbit" */ = {
+		A1B2C3EF2E37C55100A8724A /* Build configuration list for PBXNativeTarget "Zenbit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				278F75602E37C55100A8724A /* Debug */,
-				278F75612E37C55100A8724A /* Release */,
+				A1B2C3FA2E37C55100A8724A /* Debug */,
+				A1B2C3FB2E37C55100A8724A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		278F75622E37C55100A8724A /* Build configuration list for PBXNativeTarget "Zenbit" */ = {
+		A1B2C3F32E37C55100A8724A /* Build configuration list for PBXNativeTarget "ZenbitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				278F75632E37C55100A8724A /* Debug */,
-				278F75642E37C55100A8724A /* Release */,
+				A1B2C3FC2E37C55100A8724A /* Debug */,
+				A1B2C3FD2E37C55100A8724A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		278F75652E37C55100A8724A /* Build configuration list for PBXNativeTarget "ZenbitTests" */ = {
+		A1B2C3F72E37C55000A8724A /* Build configuration list for PBXProject "Zenbit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				278F75662E37C55100A8724A /* Debug */,
-				278F75672E37C55100A8724A /* Release */,
+				A1B2C3F82E37C55100A8724A /* Debug */,
+				A1B2C3F92E37C55100A8724A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-
 /* End XCConfigurationList section */
 	};
-	rootObject = 278F75342E37C55000A8724A /* Project object */;
+	rootObject = A1B2C3E32E37C55000A8724A /* Project object */;
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="MeditationSession" representedClassName="MeditationSession" syncable="YES" codeGenerationType="class">
+        <attribute name="backgroundImage" optional="YES" attributeType="String" defaultValueString="forest"/>
+        <attribute name="backgroundMusic" optional="YES" attributeType="String" defaultValueString="rain"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 32" defaultValueString="60" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="moodAfter" optional="YES" attributeType="Integer 16" defaultValueString="3" usesScalarValueType="YES"/>
+        <attribute name="moodBefore" optional="YES" attributeType="Integer 16" defaultValueString="3" usesScalarValueType="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="sessionType" optional="YES" attributeType="String" defaultValueString="breathing"/>
+        <attribute name="startTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String" defaultValueString="冥想"/>
+    </entity>
+</model> 
